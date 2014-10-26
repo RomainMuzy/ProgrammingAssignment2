@@ -1,4 +1,5 @@
 ## Function to create matrix cache
+## RMuzy Coursera Class
 
 makeCacheMatrix <- function(original.matrix = matrix()) {
   
