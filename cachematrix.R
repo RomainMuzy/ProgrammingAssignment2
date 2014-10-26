@@ -2,11 +2,12 @@
 
 makeCacheMatrix <- function(original.matrix = matrix()) {
   
-  # Check for matrix
+  # Check that a matrix has been given
   if (!is.matrix(original.matrix)) {
     stop("Please enter a valid matrix")
   }
   
+  # Initalize variable
   inverted.matrix <- NULL
   
   set <- function(y) {
